@@ -1,0 +1,14 @@
+# Site settings
+title: Random techie's blog
+motto: Free data for everyone!
+email: martin.vladev@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+    Personal blog site. Ramblings and hate.
+    Enable Sofia Traffic schedule for Google Maps
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://fen4o.com" # the base hostname & protocol for your site
+twitter_username: fen4o
+github_username: fen4o
+
+# Build settings
+markdown: kramdown
