@@ -12,3 +12,7 @@ github_username: fen4o
 
 # Build settings
 markdown: kramdown
+
+# Sitemap for easy search
+gems:
+  - jekyll-sitemap
