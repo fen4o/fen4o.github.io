@@ -2,6 +2,15 @@ html,body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 $footer-height; /* bottom = footer height */
+}
+
 /**
  * Header
  */
@@ -184,16 +193,11 @@ li {
 .footer {
     font-size: 11px;
     text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: $footer-height;
+    width: 100%;
     color: #666;
 }
 
-#gotop {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    padding: 10px 15px;
-    font-size: 20px;
-    background: #515865;
-    color: white;
-    cursor: pointer;
-}
