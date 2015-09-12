@@ -13,7 +13,7 @@ tags: bg
 
 *   Можете по всяко време да разберете IP адрес + email на всеки потребител,
     който е коментирал.  Как? Просто посещавате
-    `<http://offnews.bg/requests.php?act=opinion&opid={id}>` и заменяте `{id}` с
+    `http://offnews.bg/requests.php?act=opinion&opid={id}` и заменяте `{id}` с
     номерът на коментара, който искате да видите.  А как намерите този номер?
     Ако сте с Google Chrome - докато сте с мишката над коментар - дясно копче,
     Inspect element и търсите нещо от този сорт `<div class="comment_info"
